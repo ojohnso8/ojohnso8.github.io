@@ -1,2 +1,2 @@
 # ojohnso8.github.io
-example
+Latitude Web Dashboard
