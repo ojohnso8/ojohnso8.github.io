@@ -1,99 +1,125 @@
-.logo {
-  font-weight: bold;
-  background-color: mediumturquoise;
+.container-fluid .navbar-brand{
   color: white;
-  font-size: 30px;
+  height: 60px;
+  padding: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-weight: bold;
+  font-size: 140%;
+  background: rgb(31, 214, 196);
 }
 
-body {
-    background: lightgrey;
-  }
-  
-  .skyblue {
-    background: white;
-  }
-  
-  .box{
-    padding: 10px;
-    background: white;
-    margin-top:50px;
-    margin-left:5px;
-    margin-right:5px;
-    margin-bottom:20px;
-    align-content: center;
-  }
-  
-  .navbar {
-    margin-right: 0px;
-    margin-left: 0px;
-    padding: 25px;
-    background: white;
-  }
-  
-  .navbar li {
-    display: d-block;
-    padding: 10px;
-    margin-right: 0px;
-    margin-left: 0px;
-    cursor: pointer;
-  }
-  h1 {
-    font-size: 36px;
-    color: turquoise
-  }
-  h2 {
-    font-size: 22px;
-  }
-  
-  p{
-      font-size: 18px;
-  }
-  
-  .c-d{color:white;
-    font-size: 30px;
-  }
-  
-  .latitude {
-    color: white;
-    font-family: verdana;
-    font-size: 45px;
-    background-color: lightgrey;
-    border: 1px solid lightgrey;
-      padding: 15px;
-  }
+.navbar-nav li {
+display:inline-block;     
+}
 
-  @media (max-width: 500px) {
-    .navbar li {
-      padding: 10px;
-    }
-    .box {
-      margin-right: 22px;
-      margin-left: 22px;
-    }
-    .navbar ul {
-      visibility: hidden;
-    }
-    #nav-select {
-      visibility: visible;
-    }
-  }
-  
-  .col-1 {width: 8%;}
-  .col-2 {width: 17%;}
-  .col-3 {width: 24%;}
-  .col-4 {width: 32%;}
-  .col-5 {width: 40%;}
-  .col-6 {width: 50%;}
-  .col-7 {width: 60%;}
-  .col-8 {width: 65%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 82%;}
-  .col-11 {width: 92%;} 
-  .col-12 {width: 100%;}
-  
-  @media only screen and (max-width: 768px) {
+body{
+background-color:#e4e4e4;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: 1.1rem;
+font-weight: 300;
+line-height: 2.0;
+text-align: justify;
+}
 
-      [class*="col-"] {
-          width: 100%;
-      }
-  }
+.container {
+
+background-color: white;
+
+
+
+}
+
+.container h1{
+font-weight: bold;
+font-size: 250%;
+color: turquoise;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: 70px;
+padding: 20px;
+margin-left: 30px;
+align-content: center;
+}
+
+p {
+line-height: 1.8;
+margin-bottom: 70px;
+}
+
+.container h3{
+font-weight: bold;
+font-size: 125%;
+color: turquoise;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: 70px;
+margin-right: 35px;
+}
+
+footer{
+position: fixed;
+bottom: 0;
+width: 100%;
+height: 20px;
+background-color: rgb(83, 83, 81);
+}
+
+.footer p{
+color: white;
+}
+
+.container h2{
+font-weight: bold;
+font-size: 150%;
+color: turquoise;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+margin-top: 70px;
+margin-left: 20px;
+padding: 20px;
+}
+#comparison {
+margin-top: 10px;
+text-align: center;
+margin-bottom: 30px;
+}
+
+#comparison h3 {
+margin-top: 1px;
+}
+
+#comparison p {
+margin-bottom: 20px;
+}
+
+#firstblock {
+width:90%;
+}
+
+#secondblock {
+margin-left: 25px;
+width:85%;
+}
+
+.dataframe{
+margin-left: 100px;
+}
+
+.col-md-12 h2{
+margin-top: 30px;
+margin-bottom: 30px;
+}
+
+@media (max-width: 480px) {
+.navbar-nav li {  
+  padding: 10px;
+}
+/* .box {
+  margin-right: 20px;
+  margin-left: 20px;
+} */
+/* The nav bar selection remains hidden when screen size reaches 480px */
+.navbar ul { 
+  visibility: hidden;
+}
+/* #nav-select {
+  visibility: visible;
+} */
+}
