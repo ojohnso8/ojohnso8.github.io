@@ -1,9 +1,9 @@
 body {
-    background: rgb(116, 196, 223);
+    background: #FFFFFF;
   }
   
   .skyblue {
-    background: rgb(38, 77, 90);
+    background: #E0E0E0;
   }
   
   .box{
@@ -20,7 +20,7 @@ body {
     margin-right: 0px;
     margin-left: 0px;
     padding: 25px;
-    background: rgb(74, 99, 126);
+    background:#E0E0E0;
   }
   
   .navbar li {
@@ -49,8 +49,8 @@ body {
     color: white;
     font-family: verdana;
     font-size: 45px;
-    background-color: rgb(25, 103, 155);
-    border: 1px solid rgb(22, 99, 150);
+    background-color: #E0E0E0;
+    border: 1px solid #E0E0E0;
       padding: 15px;
   }
 
