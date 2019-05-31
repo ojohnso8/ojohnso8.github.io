@@ -1,3 +1,10 @@
+.logo {
+  font-weight: bold;
+  background-color: turquoise;
+  color: white;
+  font-size: 50px;
+}
+
 body {
     background: lightgrey;
   }
