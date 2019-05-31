@@ -1,3 +1,8 @@
+.navbar{
+  max-height: 57px; 
+  background-color: white;
+}
+
 .logo {
   font-weight: bold;
   background-color: mediumturquoise;
