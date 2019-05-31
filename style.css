@@ -2,10 +2,9 @@
   color: white;
   height: 60px;
   padding: 20px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   font-weight: bold;
   font-size: 140%;
-  background: rgb(31, 214, 196);
+  background:mediumturquoise;
 }
 
 .navbar-nav li {
@@ -13,8 +12,7 @@ display:inline-block;
 }
 
 body{
-background-color:#e4e4e4;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+background-color:lightgrey;
 font-size: 1.1rem;
 font-weight: 300;
 line-height: 2.0;
@@ -32,8 +30,7 @@ background-color: white;
 .container h1{
 font-weight: bold;
 font-size: 250%;
-color: turquoise;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: mediumturquoise;
 margin-top: 70px;
 padding: 20px;
 margin-left: 30px;
@@ -48,8 +45,7 @@ margin-bottom: 70px;
 .container h3{
 font-weight: bold;
 font-size: 125%;
-color: turquoise;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: mediumturquoise;
 margin-top: 70px;
 margin-right: 35px;
 }
@@ -69,8 +65,7 @@ color: white;
 .container h2{
 font-weight: bold;
 font-size: 150%;
-color: turquoise;
-font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+color: mediumturquoise;
 margin-top: 70px;
 margin-left: 20px;
 padding: 20px;
@@ -111,15 +106,7 @@ margin-bottom: 30px;
 .navbar-nav li {  
   padding: 10px;
 }
-/* .box {
-  margin-right: 20px;
-  margin-left: 20px;
-} */
-/* The nav bar selection remains hidden when screen size reaches 480px */
+
 .navbar ul { 
   visibility: hidden;
-}
-/* #nav-select {
-  visibility: visible;
-} */
 }
