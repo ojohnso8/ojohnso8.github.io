@@ -17,6 +17,10 @@ body {
 
 }
 
+#right-block {
+  background: white;
+}
+
 .box{
   padding: 10px;
   background: white;
