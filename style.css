@@ -12,6 +12,11 @@ body {
   height:200px; 
 }
 
+#left-block {
+  background: white;
+
+}
+
 .box{
   padding: 10px;
   background: white;
