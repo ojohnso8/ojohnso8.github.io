@@ -6,6 +6,10 @@ body {
   background: white;
 }
 
+#left-image {
+  float: left;
+}
+
 .box{
   padding: 10px;
   background: white;
