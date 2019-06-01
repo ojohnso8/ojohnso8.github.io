@@ -21,6 +21,10 @@ body {
   background: white;
 }
 
+#comp-block {
+  background: white;
+}
+
 .box{
   padding: 10px;
   background: white;
