@@ -24,7 +24,7 @@ body {
 }
 
 .navbar li {
-  display: d-block;
+  /* display: d-block; */
   padding: 10px;
   margin-right: 0px;
   margin-left: 0px;
