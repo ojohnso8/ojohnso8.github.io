@@ -6,11 +6,6 @@ body {
   background: white;
 } */
 
-.logo {
-  background: mediumturquoise;
-  color: white;
-}
-
 #left-image {
   float: left;
   width:200px;
@@ -39,8 +34,12 @@ body {
   background: white;
 }
 
+.navbar-brand {
+  background: mediumturquoise;
+  color: white;
+
+}
 .navbar li {
-  /* display: d-block; */
   padding: 10px;
   margin-right: 0px;
   margin-left: 0px;
