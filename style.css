@@ -21,8 +21,9 @@ body {
   background: white;
 }
 
-#right-bar {
+.col-md-4 sidebar {
   background: white;
+}
 
 }
 
