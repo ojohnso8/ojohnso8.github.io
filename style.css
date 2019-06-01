@@ -2,8 +2,13 @@ body {
   background:lightgrey;
 }
 
-.skyblue {
+/* .skyblue {
   background: white;
+} */
+
+.logo {
+  background: mediumturquoise;
+  color: white;
 }
 
 #left-image {
@@ -83,7 +88,7 @@ p{
   }
 }
 
-.col-1 {width: 8%;}
+/* .col-1 {width: 8%;}
 .col-2 {width: 17%;}
 .col-3 {width: 24%;}
 .col-4 {width: 32%;}
@@ -94,7 +99,7 @@ p{
 .col-9 {width: 75%;}
 .col-10 {width: 82%;}
 .col-11 {width: 92%;}
-.col-12 {width: 100%;}
+.col-12 {width: 100%;} */
 
 @media only screen and (max-width: 768px) {
 
