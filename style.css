@@ -13,6 +13,9 @@ body {
 
 }
 
+.col-md-3 {
+  align-content: center;
+}
 
 #comp-block {
   background: white;
