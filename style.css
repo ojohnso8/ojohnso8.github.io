@@ -55,6 +55,11 @@ h2 {
   color: mediumturquoise
 }
 
+h3 {
+  font-size: 20px;
+  color: mediumturquoise;
+}
+
 p{
     font-size: 18px;
 }
